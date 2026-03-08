@@ -1,0 +1,188 @@
+/* josefin-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/josefin-sans-v34-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/josefin-sans-v34-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/josefin-sans-v34-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/josefin-sans-v34-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/josefin-sans-v34-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/josefin-sans-v34-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/josefin-sans-v34-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/josefin-sans-v34-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.secti {
+  display: flex;
+}
+.hero {
+  margin-left: 4px;
+  display: flex;
+  margin-top: 65.76px;
+  padding-bottom: 136px;
+  align-items: center;
+  h2 {
+    font-size: 14px;
+    font-family: "Josefin Sans";
+    font-weight: 200;
+  }
+}
+.imga {
+  padding-right: 11px;
+}
+
+.hero1 {
+  padding-left: 165px;
+  padding-right: 220px;
+  background-image: linear-gradient(#ffffff, #fff4f4);
+}
+.hero3 {
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 17.32px;
+    font-weight: 300;
+    color: #ce9898;
+    font-family: "Josefin Sans";
+  }
+  h3 {
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 17.32px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    font-family: "Josefin Sans";
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    color: #f96464;
+  }
+}
+.vertu {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.for {
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  left: 78%;
+}
+input {
+  padding: 15px 30px;
+  border-radius: 60px;
+  padding: 19px;
+  width: 100%;
+  outline: none;
+  border: 2px solid rgb(203, 200, 200);
+  transition: 0.2s ease;
+}
+.vertu2 {
+  z-index: 4;
+  color: black;
+  background-color: #ee8b8b;
+  position: absolute;
+  left: 77%;
+  border-radius: 60px;
+  padding: 16px 46px;
+  transition: transform 0.7s ease;
+}
+.pen {
+  padding-bottom: 40px;
+  font-family: "Josefin Sans";
+  color: #ce9898;
+}
+
+input:hover {
+  border: 2px solid #ee8b8b;
+}
+.vertu:hover .vertu2 {
+  transform: translateX(35px);
+  cursor: pointer;
+}
+.vertu4 {
+  padding-top: 10px;
+  padding-right: 225px;
+  color: #ee8b8b;
+  display: none;
+  transition: 2s;
+}
+.vertu:hover .vertu4 {
+  display: inline-block;
+}
+
+.vertu:hover {
+  color: #ee8b8b;
+}
+.input:hover.vertu4 {
+  display: inline-block;
+}
