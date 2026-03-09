@@ -76,7 +76,9 @@ body {
 }
 
 .secti {
-  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 .hero {
   margin-left: 4px;
@@ -273,8 +275,9 @@ h6 span:nth-child(1) {
     display: block;
   }
   .hero {
-    padding: 0px;
+    padding-top: 31px;
     padding-bottom: 32px;
+    padding-left: 32px;
     margin: 0px;
   }
   .hero3 {
@@ -283,18 +286,22 @@ h6 span:nth-child(1) {
     text-align: center;
   }
   .pen {
+    padding-left: 10px;
+    padding-bottom: 32px;
     text-align: center;
     line-height: 32px;
   }
   .vertu {
+    margin: auto;
+
     padding-bottom: 92px;
-    width: 90%;
+    width: 80%;
   }
   .hero1 {
-    padding: 32px;
+    padding: 1px;
   }
   .vertu4 {
-    width: 100%;
+    margin: auto;
 
     padding-left: 20px;
   }
