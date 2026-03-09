@@ -171,7 +171,7 @@ input:hover {
 }
 .vertu4 {
   padding-top: 10px;
-  padding-right: 225px;
+
   color: #ee8b8b;
   display: none;
   transition: 2s;
@@ -254,5 +254,48 @@ h6 span:nth-child(1) {
       0 8px 0 #ccc,
       0 9px 0 #ccc,
       0 60px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.vero {
+  display: none;
+}
+@media (max-width: 750px) {
+  .vali1 {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .vero {
+    width: 100%;
+    height: 250px;
+    display: block;
+  }
+  .hero {
+    padding: 0px;
+    padding-bottom: 32px;
+    margin: 0px;
+  }
+  .hero3 {
+    padding: 0px;
+    padding-top: 64px;
+    text-align: center;
+  }
+  .pen {
+    text-align: center;
+    line-height: 32px;
+  }
+  .vertu {
+    padding-bottom: 92px;
+    width: 90%;
+  }
+  .hero1 {
+    padding: 32px;
+  }
+  .vertu4 {
+    width: 100%;
+
+    padding-left: 20px;
   }
 }
